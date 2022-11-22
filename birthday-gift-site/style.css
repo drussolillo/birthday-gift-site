@@ -1,0 +1,96 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#EFB0C9, grey);
+    color: #ffffff;
+}
+
+#uface {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 2px black;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 2px black;
+    margin: 15px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 2px black;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    text-shadow: 0px 0px 2px black;
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift\ cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media3.giphy.com/media/14udF3WUwwGMaA/giphy.gif?cid=ecf05e47x171du4g4uj1448s672n73plcl4bcopmzc8sevtg&rid=giphy.gif&ct=g");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media4.giphy.com/media/Sr8dN4GfSwsbHW4Rap/giphy.gif?cid=ecf05e47vsoaib7d513rxh0wks1xylgg0xub3jt40f3kxxv8&rid=giphy.gif&ct=g");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media3.giphy.com/media/IedrY2VP5IO5ivDQAD/giphy.gif?cid=ecf05e47rwvyjwqyzo4hatfsa0s6f4aj1mukacshzfc7miu5&rid=giphy.gif&ct=g");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media4.giphy.com/media/R38SswoY6wEDe/giphy.gif?cid=ecf05e47270ycawa9pdchyixuwxpesfzrdfn2n6ae14ghvmp&rid=giphy.gif&ct=g");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media1.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif?cid=ecf05e4768h339s4vvub8hv45l036a5263c89uufdrjpmc5c&rid=giphy.gif&ct=g");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
